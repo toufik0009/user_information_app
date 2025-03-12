@@ -8,8 +8,8 @@ The User Information App is a React Native Expo application that displays user i
 
 ## ScreenShots
 
-![WhatsApp Image 2025-03-12 at 10 23 50 PM](https://github.com/user-attachments/assets/5e0505ec-d823-45fb-a016-01f0e52137ca)
 ![WhatsApp Image 2025-03-12 at 10 25 53 PM](https://github.com/user-attachments/assets/3af48897-c09e-4a98-9705-780fe665b6c3)
+![WhatsApp Image 2025-03-12 at 10 23 50 PM](https://github.com/user-attachments/assets/e71eb410-3e24-4aa7-a277-fea3ab435feb)
 
 ## Get started
 
