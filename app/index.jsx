@@ -5,7 +5,7 @@ import axios from 'axios';
 export default function index() {
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(true);
-    const [pageLoading, setPageLoading] = useState(false); // New state for page loading
+    const [pageLoading, setPageLoading] = useState(false); 
     const [index, setIndex] = useState(0);
     const [users, setUsers] = useState([]);
 
@@ -28,23 +28,23 @@ export default function index() {
 
     const handleNext = () => {
         if (index < users.length - 1) {
-            setPageLoading(true); // Start page loading
+            setPageLoading(true); 
             setTimeout(() => {
                 setIndex(index + 1);
                 setUser(users[index + 1]);
-                setPageLoading(false); // End page loading
-            }, 1000); // Simulate a 1-second delay
+                setPageLoading(false); 
+            }, 1000); 
         }
     };
 
     const handlePrevious = () => {
         if (index > 0) {
-            setPageLoading(true); // Start page loading
+            setPageLoading(true); 
             setTimeout(() => {
                 setIndex(index - 1);
                 setUser(users[index - 1]);
-                setPageLoading(false); // End page loading
-            }, 1000); // Simulate a 1-second delay
+                setPageLoading(false); 
+            }, 1000); 
         }
     };
 
